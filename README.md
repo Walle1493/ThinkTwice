@@ -1,6 +1,6 @@
 # ThinkTwice
 
-ThinkTwice is a retriever-reader architecture for solving long-text machine reading comprehension. It is based on the paper: ***ThinkTwice: two-stage method for long-text machine reading comprehension***. Authors are Mengxing Dong, Bowei Zou, Jin Qian, Rongtao Huang and Yu Hong from Soochow University and Institute for Infocomm Research. The paper will be published in NLPCC 2021 soon.
+ThinkTwice is a retriever-reader architecture for solving long-text machine reading comprehension. It is based on the paper: ***ThinkTwice: A Two-Stage Method for Long-Text Machine Reading Comprehension***. Authors are Mengxing Dong, Bowei Zou, Jin Qian, Rongtao Huang and Yu Hong from Soochow University and Institute for Infocomm Research. The paper will be published in NLPCC 2021 soon.
 
 ## Contents
 
@@ -17,8 +17,8 @@ Our idea is mainly inspired by the way humans think: We first read a lengthy doc
 The goals for this repository are:
 
 1. A **complete code** for NewsQA. This repo offers an implement for dealing with long text MRC dataset NewsQA; you can also try this method on other datsets like TriviaQA, Natural Questions yourself.
-2. A comparison **description**. The performance on ThinkTwice has been listed in the paper
-3. A public space for **advice**. You are welcomed to propose an issue on this repo.
+2. A comparison **description**. The performance on ThinkTwice has been listed in the paper.
+3. A public space for **advice**. You are welcomed to propose an issue in this repo.
 
 ## Requirements
 
