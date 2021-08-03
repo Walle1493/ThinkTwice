@@ -36,41 +36,41 @@ You may install several libraries on yourself.
 You need to prepare data in a squad2-like format. Since NewsQA is similar to SQuAD-2.0, we don't offer the script in this repo. The demo data format is showed below:
 
 ```json
-	"version": "1",
-    "data": [
-        {
-            "type": "train",
-            "title": "./cnn/stories/42d01e187213e86f5fe617fe32e716ff7fa3afc4.story",
-            "paragraphs": [
-                {
-                    "context": "NEW DELHI, India (CNN) -- A high court in northern India on Friday acquitted a wealthy...",
-                    "qas": [
-                        {
-                            "question": "What was the amount of children murdered?",
-                            "id": "./cnn/stories/42d01e187213e86f5fe617fe32e716ff7fa3afc4.story01",
-                            "answers": [
-                                {
-                                    "answer_start": 294,
-                                    "text": "19"
-                                }
-                            ],
-                            "is_impossible": false
-                        },
-                        {
-                            "question": "When was Pandher sentenced to death?",
-                            "id": "./cnn/stories/42d01e187213e86f5fe617fe32e716ff7fa3afc4.story02",
-                            "answers": [
-                                {
-                                    "answer_start": 261,
-                                    "text": "February"
-                                }
-                            ],
-                            "is_impossible": false
-                        }
-                    ]
-                }
-            ]
-        }
+"version": "1",
+"data": [
+    {
+        "type": "train",
+        "title": "./cnn/stories/42d01e187213e86f5fe617fe32e716ff7fa3afc4.story",
+        "paragraphs": [
+            {
+                "context": "NEW DELHI, India (CNN) -- A high court in northern India on Friday acquitted a wealthy...",
+                "qas": [
+                    {
+                        "question": "What was the amount of children murdered?",
+                        "id": "./cnn/stories/42d01e187213e86f5fe617fe32e716ff7fa3afc4.story01",
+                        "answers": [
+                            {
+                                "answer_start": 294,
+                                "text": "19"
+                            }
+                        ],
+                        "is_impossible": false
+                    },
+                    {
+                        "question": "When was Pandher sentenced to death?",
+                        "id": "./cnn/stories/42d01e187213e86f5fe617fe32e716ff7fa3afc4.story02",
+                        "answers": [
+                            {
+                                "answer_start": 261,
+                                "text": "February"
+                            }
+                        ],
+                        "is_impossible": false
+                    }
+                ]
+            }
+        ]
+    }
 ```
 
 P.S.: You are supposed to make a change when dealing with other datasets like TriviaQA or NQ, because we split passages by '\n' character in NewsQA, while not all the same in other datasets.
