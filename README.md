@@ -71,6 +71,7 @@ You need to prepare data in a squad2-like format. Since NewsQA is similar to SQu
             }
         ]
     }
+]
 ```
 
 P.S.: You are supposed to make a change when dealing with other datasets like TriviaQA or NQ, because we split passages by '\n' character in NewsQA, while not all the same in other datasets.
