@@ -33,7 +33,7 @@ You may install several libraries on yourself.
 
 ## Dataset
 
-You need to prepare data in a squad2-like format. Since NewsQA is similar to SQuAD-2.0, we don't offer the script in this repo. The demo data format is showed below:
+You need to prepare data in a squad2-like format. Since [NewsQA](https://github.com/Maluuba/newsqa)(more details) similar to SQuAD-2.0, we don't offer the script in this repo. The demo data format is showed below:
 
 ```json
 "version": "1",
@@ -111,7 +111,7 @@ python code/main.py \
   --first_stage \
 ```
 
-In order to improve efficiency, we store data and model generated during training in a binary format. Specifically, when you switch on `do_preprocess`, the converted data in the first stage will be stored in the directory `data_binary`, next time you can switch off this option to directly load data. As well, `do_preprocess` aims at the data in the second stage, and `first_stage` is for the retriever model. The model and metrics result can be found in  the directory `output/newsqa`.
+In order to improve efficiency, we store data and model generated during training in a binary format. Specifically, when you switch on `do_preprocess`, the converted data in the first stage will be stored in the directory `data_binary`, next time you can switch off this option to directly load data. As well, `do_preprocess` aims at the data in the second stage, and `first_stage` is for the retriever model. The model and metrics result can be found in  the directory `output/newsqa` after training.
 
 ## License
 
