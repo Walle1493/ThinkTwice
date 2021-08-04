@@ -33,7 +33,7 @@ You may install several libraries on yourself.
 
 ## Dataset
 
-You need to prepare data in a squad2-like format. Since [NewsQA](https://github.com/Maluuba/newsqa)(more details) similar to SQuAD-2.0, we don't offer the script in this repo. The demo data format is showed below:
+You need to prepare data in a squad2-like format. Since [NewsQA](https://github.com/Maluuba/newsqa) ([click to see more details](https://github.com/Maluuba/newsqa)) is similar to SQuAD-2.0, we don't offer the script in this repo. The demo data format is showed below:
 
 ```json
 "version": "1",
