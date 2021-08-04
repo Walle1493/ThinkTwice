@@ -74,7 +74,7 @@ You need to prepare data in a squad2-like format. Since [NewsQA](https://github.
 ]
 ```
 
-P.S.: You are supposed to make a change when dealing with other datasets like [TriviaQA](https://github.com/mandarjoshi90/triviaqa) or [Natural Qeustions](https://github.com/google-research-datasets/natural-questions), because we split passages by '\n' character in NewsQA, while not all the same in other datasets.
+P.S.: You are supposed to make a change when dealing with other datasets like [TriviaQA](https://github.com/mandarjoshi90/triviaqa) or [Natural Questions](https://github.com/google-research-datasets/natural-questions), because we split passages by '\n' character in NewsQA, while not all the same in other datasets.
 
 ## Train
 
