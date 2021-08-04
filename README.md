@@ -115,4 +115,4 @@ In order to improve efficiency, we store data and model generated during trainin
 
 ## License
 
-[Soochow University](https://www.suda.edu.cn/) © Mengxing Dong
+[Soochow University](https://www.suda.edu.cn/) © [Mengxing Dong](https://github.com/Walle1493)
