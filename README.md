@@ -1,6 +1,6 @@
 # ThinkTwice
 
-ThinkTwice is a retriever-reader architecture for solving long-text machine reading comprehension. It is based on the paper: ***ThinkTwice: A Two-Stage Method for Long-Text Machine Reading Comprehension***. Authors are Mengxing Dong, Bowei Zou, Jin Qian, Rongtao Huang and Yu Hong from Soochow University and Institute for Infocomm Research. The paper will be published in NLPCC 2021 soon.
+ThinkTwice is a retriever-reader architecture for solving long-text machine reading comprehension. It is based on the paper: ***ThinkTwice: A Two-Stage Method for Long-Text Machine Reading Comprehension***. Authors are [Mengxing Dong](https://github.com/Walle1493), Bowei Zou, [Jin Qian](https://github.com/jaytsien), [Rongtao Huang](https://github.com/WhaleFallzz) and Yu Hong from Soochow University and Institute for Infocomm Research. The paper will be published in NLPCC 2021 soon.
 
 ## Contents
 
@@ -74,7 +74,7 @@ You need to prepare data in a squad2-like format. Since [NewsQA](https://github.
 ]
 ```
 
-P.S.: You are supposed to make a change when dealing with other datasets like TriviaQA or NQ, because we split passages by '\n' character in NewsQA, while not all the same in other datasets.
+P.S.: You are supposed to make a change when dealing with other datasets like [TriviaQA](https://github.com/mandarjoshi90/triviaqa) or [Natural Qeustions](https://github.com/google-research-datasets/natural-questions), because we split passages by '\n' character in NewsQA, while not all the same in other datasets.
 
 ## Train
 
