@@ -1,6 +1,6 @@
 # ThinkTwice
 
-ThinkTwice is a retriever-reader architecture for solving long-text machine reading comprehension. It is based on the paper: ***ThinkTwice: A Two-Stage Method for Long-Text Machine Reading Comprehension***. Authors are [Mengxing Dong](https://github.com/Walle1493), Bowei Zou, [Jin Qian](https://github.com/jaytsien), [Rongtao Huang](https://github.com/WhaleFallzz) and Yu Hong from Soochow University and Institute for Infocomm Research. The paper will be published in NLPCC 2021 soon.
+ThinkTwice is a retriever-reader architecture for solving long-text machine reading comprehension. It is based on the paper: ***ThinkTwice: A Two-Stage Method for Long-Text Machine Reading Comprehension***. Authors are [Mengxing Dong](https://github.com/Walle1493), [Bowei Zou](nlp.suda.edu.cn/~zoubowei), [Jin Qian](https://github.com/jaytsien), [Rongtao Huang](https://github.com/WhaleFallzz) and Yu Hong from Soochow University and Institute for Infocomm Research. The paper will be published in NLPCC 2021 soon.
 
 ## Contents
 
